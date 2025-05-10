@@ -54,3 +54,13 @@ main {
     margin-top: 10px;
     list-style: none;
 }
+
+
+#to-do li {
+    background-color: #487eb0;
+    margin-top: 10px;
+    color: #fff;
+    position: relative;
+    user-select: none;
+    padding-right: 10px;
+}
