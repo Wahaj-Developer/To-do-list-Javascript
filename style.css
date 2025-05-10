@@ -36,5 +36,17 @@ main {
     padding: 15px;
 }
 
+#item {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color:#273c75 ;
+    color: #fff;
+    display: block;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #273c75;
+    outline: 0;
+}
 
 
