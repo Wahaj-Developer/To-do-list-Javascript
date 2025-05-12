@@ -12,3 +12,12 @@ item.addEventListener(
 
     }
 )
+
+
+const add = (data) => {
+    const listitem = document.createElement("li");
+    listitem.innerHTML = `
+    ${data}
+    <i class="fa-solid fa-rectangle-xmark"></i>
+                
+    `;
