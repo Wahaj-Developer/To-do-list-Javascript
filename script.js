@@ -21,9 +21,20 @@ const add = (data) => {
     <i class="fa-solid fa-rectangle-xmark"></i>
                 
     `;
+    
  listitem.addEventListener(
         "click",
         function(){
             this.classList.toggle("done")
         }
     )
+
+      listitem.querySelector("i").addEventListener(
+        "click" ,
+        function(){
+            listitem.remove()
+        }
+    )
+    toDo.appendChild(listitem)
+
+}
